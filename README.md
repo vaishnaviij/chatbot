@@ -38,7 +38,7 @@ Here’s your content restructured with clear spacing between steps and sections
 ## 1. Clone the Repository
 
 ```bash
-git clone https://github.com/vaishnaviij/counselmate.git
+git clone https://github.com/rishika2108/counselmate.git
 cd counselmate
 ```
 
