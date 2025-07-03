@@ -23,6 +23,8 @@ CounselMate is an AI-powered career guidance platform designed to help students 
   Follows a structured SYSTEM_PROMPT to simulate a professional career counselor.  
   Maintains conversational context with a 5-message history window.
 
+   ---
+
 
 ## Prerequisites
 
@@ -31,7 +33,7 @@ Before running the project locally, make sure you have the following installed:
 - Python 3.7+  
 - Node.js (v14+ recommended)  
 - pip (Python package manager)
-Here’s your content restructured with clear spacing between steps and sections for improved readability:
+
 
 ---
 
