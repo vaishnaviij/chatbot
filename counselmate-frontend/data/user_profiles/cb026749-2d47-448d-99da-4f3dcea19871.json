@@ -1,0 +1,43 @@
+{
+  "user_id": "cb026749-2d47-448d-99da-4f3dcea19871",
+  "name": "Aditya",
+  "email": "aditya@gmail.com",
+  "education_level": "mtech",
+  "interests": [
+    "problem-solving"
+  ],
+  "skills": [
+    "problem-solving"
+  ],
+  "preferred_careers": [],
+  "conversation_history": [
+    {
+      "user": "Hii",
+      "assistant": "Hello! I see you've dropped by for some career guidance today. I'd be happy to help you out. To get started, I'd like to know a bit more about your interests and skills. What subjects or activities do you enjoy in your free time? And what are some skills you feel particularly strong in?",
+      "timestamp": "2025-03-17T15:47:59.948430"
+    },
+    {
+      "user": "I am good at problem-solving and coding. What careers suit me?",
+      "assistant": "It sounds like you might be well-suited for a career in computer science or information technology. Some specific roles you might consider are Software Engineer, Data Scientist, or IT Consultant. These careers require strong problem-solving skills and a good understanding of coding concepts. I can provide more information about each of these careers if you'd like, including the required education and job prospects.\n\nBased on what you've shared, here are some career paths you might consider:\n\n1. Software Developer:\n   - Designs, builds, and maintains computer programs and applications.\n   - Required skills: programming, problem-solving, analytical thinking\n   - Education paths: Computer Science degree, Coding Bootcamp\n   - Salary range: $60,000 - $120,000+\n\n2. Graphic Designer:\n   - Creates visual concepts to communicate ideas that inspire, inform, or captivate consumers.\n   - Required skills: design software, creativity, typography\n   - Education paths: Graphic Design degree, Fine Arts degree\n   - Salary range: $40,000 - $85,000+\n\n3. Environmental Scientist:\n   - Studies environmental problems and develops solutions to protect nature and human health.\n   - Required skills: research, data analysis, field work\n   - Education paths: Environmental Science degree, Biology degree\n   - Salary range: $45,000 - $90,000+\n",
+      "timestamp": "2025-03-17T15:48:34.833693"
+    },
+    {
+      "user": "software developer looks interesting",
+      "assistant": "Great choice! Software Development is a rewarding and in-demand field. I can help you explore this career path further if you'd like. Do you have any specific areas of interest within software development, such as web development, mobile app development, or game development?",
+      "timestamp": "2025-03-17T15:48:45.349960"
+    },
+    {
+      "user": "explain me more about this field",
+      "assistant": "Absolutely! Software Development is the process of designing, building, and maintaining computer software. Software developers use programming languages to create applications, websites, and other software solutions.\n\nThere are several areas of specialization within software development. Here are a few common ones:\n\n1. Web Development:\n   - Builds and maintains websites using languages like HTML, CSS, and JavaScript.\n   - Designs user interfaces and ensures websites are accessible to all users.\n   - Required skills: HTML, CSS, JavaScript, problem-solving, creativity\n\n2. Mobile App Development:\n   - Designs, builds, and maintains mobile applications for iOS and Android platforms.\n   - Uses programming languages like Swift (iOS) or Java (Android).\n   - Required skills: programming, problem-solving, user interface design\n\n3. Game Development:\n   - Designs, builds, and maintains video games for various platforms.\n   - Uses programming languages like C++, C#, or Unity.\n   - Required skills: programming, creativity, problem-solving",
+      "timestamp": "2025-03-17T15:49:11.712476"
+    },
+    {
+      "user": "ok good",
+      "assistant": " I'm glad you find this information helpful! If you have any more questions about software development or if you'd like to discuss the educational paths and job prospects for this career, please let me know. I'm here to help you make an informed decision about your future.\n\nBest of luck on your career exploration journey!",
+      "timestamp": "2025-03-17T15:49:20.161816"
+    }
+  ],
+  "created_at": "2025-03-17T15:47:48.324079",
+  "last_login": "2025-03-17T15:47:48.324079",
+  "last_modified": "2025-03-17T15:49:20.161816"
+}

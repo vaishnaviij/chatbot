@@ -1,0 +1,132 @@
+/* AdminDashboard.css */
+.admin-dashboard-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #1f1f2e, #34344a);
+  color: white;
+  font-family: 'Arial', sans-serif;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.admin-dashboard-header {
+  width: 100%;
+  max-width: 900px;
+  margin-bottom: 20px;
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  backdrop-filter: blur(5px);
+  animation: fadeIn 1s ease-in-out;
+}
+
+.admin-dashboard-header h1 {
+  margin: 0;
+  font-size: 24px;
+  color: white;
+}
+
+.admin-dashboard-content {
+  width: 100%;
+  max-width: 900px;
+  padding: 30px;
+  background: white;
+  color: black;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  animation: slideUp 0.5s ease-in-out;
+}
+
+.admin-stats {
+  margin-bottom: 30px;
+}
+
+.admin-actions {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.admin-button {
+  padding: 12px 24px;
+  border: none;
+  border-radius: 8px;
+  background-color: #4a4e69;
+  color: white;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-size: 16px;
+  min-width: 150px;
+}
+
+.admin-button:hover {
+  background-color: #22223b;
+}
+
+.super-admin-badge {
+  display: inline-block;
+  padding: 8px 15px;
+  background: #ff4500;
+  color: white;
+  border-radius: 5px;
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+.logout-button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  background-color: #ff4500;
+  color: white;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-size: 16px;
+}
+
+.logout-button:hover {
+  background-color: #cc3700;
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes slideUp {
+  from { transform: translateY(20px); opacity: 0; }
+  to { transform: translateY(0); opacity: 1; }
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+  .header-content {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .admin-dashboard-header h1 {
+    margin-bottom: 15px;
+  }
+
+  .admin-actions {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .admin-button {
+    width: 100%;
+    max-width: 250px;
+  }
+}
