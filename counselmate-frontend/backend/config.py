@@ -7,11 +7,11 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # API configuration
-API_TOKEN = os.getenv("HF_API_TOKEN", "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")
+API_TOKEN = os.getenv("HF_API_TOKEN", "your_hf_token")
 API_URL = os.getenv("HF_API_URL", "https://api-inference.huggingface.co/models/mistralai/Mistral-7B-Instruct-v0.2")
 
 # MongoDB configuration
-MONGO_URI = os.getenv("MONGO_URI", "mongodb+srv://swapnilpamu:nrsGKidbRS2rCDAF@cluster0.hprfp.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+MONGO_URI = os.getenv("MONGO_URI", "your_mongo_url")
 DATABASE_NAME = os.getenv("DATABASE_NAME", "counselmate")
 USER_PROFILES_COLLECTION = os.getenv("USER_PROFILES_COLLECTION", "user_profiles")
 CAREER_DATA_COLLECTION = os.getenv("CAREER_DATA_COLLECTION", "career_data")
