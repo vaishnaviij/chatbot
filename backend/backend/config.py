@@ -8,7 +8,7 @@ API_TOKEN = os.getenv("HF_API_TOKEN", "your_hf_token")
 
 API_URL = "https://api-inference.huggingface.co/models/HuggingFaceH4/zephyr-7b-beta"
 # MongoDB configuration
-MONGO_URI = os.getenv("MONGO_URI", "mongodb+srv://shwetatripathi0508:46H2RS4iwWAuwHBC@cluster0.rogdmzm.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+MONGO_URI = os.getenv("MONGO_URI", "your_mongo_url")
 
 DATABASE_NAME = os.getenv("DATABASE_NAME", "counselmate")
 USER_PROFILES_COLLECTION = os.getenv("USER_PROFILES_COLLECTION", "user_profiles")
