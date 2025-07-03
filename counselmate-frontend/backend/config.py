@@ -7,7 +7,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # API configuration
-API_TOKEN = os.getenv("HF_API_TOKEN", "your_hf_token")
+API_TOKEN = os.getenv("HF_API_TOKEN", "huggingface_token")
 API_URL = os.getenv("HF_API_URL", "https://api-inference.huggingface.co/models/mistralai/Mistral-7B-Instruct-v0.2")
 
 # MongoDB configuration
